@@ -14,7 +14,7 @@ https://pwa.xgqfrms.xyz
 ## sample code
 
 - [no-cache](https://github.com/xgqfrms/app/tree/master/pwa/chapter-3/no-cache)
-
 - [service-worker-cache](https://github.com/xgqfrms/app/tree/master/pwa/chapter-3/service-worker-cache)
-- [Precaching during Service Worker installation](https://github.com/xgqfrms/app/tree/master/pwa/chapter-3/precache)
+- [pre-cache](https://github.com/xgqfrms/app/tree/master/pwa/chapter-3/pre-cache)
+
 - [Progressive Times](https://github.com/xgqfrms/app/tree/master/pwa//chapter-3/progressive-times)
