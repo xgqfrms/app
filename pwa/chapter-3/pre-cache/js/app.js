@@ -5,7 +5,7 @@
  * @author xgqfrms
  * @license MIT
  * @copyright
- * @description service-worker-cache
+ * @description pre-cache
  * @augments
  * @example
  *

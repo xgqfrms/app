@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pre-Cache</title>
+</head>
+<body>
+    <section>
+        <h1>Pre-Cache</h1>
+        <a href="https:/pwa.xgqfrms.xyz/index.html">PWA</a>
+    </section>
+    <!-- img -->
+    <img width="300" height="300" src="./img/hello.png" />
+    <!-- js -->
+    <script async src="./app.js"></script>
+    <!-- sw -->
+    <script>
+        console.log("service worker is ready!");
+        if ("serviceWorker" in navigator) {
+            // Register the service worker
+            navigator.serviceWorker.register("./sw.js").then((registration) => {
+                // Registration was successful
+                console.log("ServiceWorker registration successful with scope:", registration.scope);
+            }).catch((err) => {
+                // registration failed
+                console.log("ServiceWorker registration failed:", err);
+            });
+        }
+    </script>
+</body>
+</html>
